@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
         ) {
           progressBar.visibility = View.GONE
           when(response.code()) {
-            // Suceessful response
+            // Sucessful response
             in 200..299 -> {
               response.body().let { itBody ->
                 itBody?.results.let { itData ->
