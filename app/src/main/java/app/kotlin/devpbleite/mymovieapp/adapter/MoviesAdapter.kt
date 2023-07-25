@@ -1,11 +1,13 @@
 package app.kotlin.devpbleite.mymovieapp.adapter
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
+import app.kotlin.devpbleite.mymovieapp.DetailsMovieActivity
 import app.kotlin.devpbleite.mymovieapp.R
 import app.kotlin.devpbleite.mymovieapp.databinding.ItemRowBinding
 import app.kotlin.devpbleite.mymovieapp.response.MovieListResponse
@@ -49,6 +51,12 @@ class MoviesAdapter: RecyclerView.Adapter<MoviesAdapter.ViewHolder>() {
         }
         tvLang.text = item.original_language
         tvMovieDateRelease.text = item.release_date
+        
+        root.setOnClickListener {
+          val intent = Intent(context, DetailsMovieActivity::class.java)
+          intent.putExtra("id", item.id)
+          context.startActivity(intent)
+        }
       }
     }
   }
