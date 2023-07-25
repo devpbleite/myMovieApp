@@ -148,7 +148,7 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="2dp"
           android:text="8"
-          android:textColor="@color/SandyTan"
+          android:textColor="@color/white"
           android:textSize="12sp"
           app:layout_constraintBaseline_toBaselineOf="@+id/tvMovieRatingTitle"
           app:layout_constraintStart_toEndOf="@+id/tvMovieRatingTitle" />
@@ -169,7 +169,7 @@
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:text="2.3 hr"
-          android:textColor="@color/SandyTan"
+          android:textColor="@color/white"
           android:textSize="12sp"
           app:layout_constraintBaseline_toBaselineOf="@+id/tvMovieRuntimeTitle"
           app:layout_constraintStart_toEndOf="@+id/tvMovieRuntimeTitle" />
@@ -191,7 +191,7 @@
           android:layout_height="wrap_content"
           android:layout_marginBottom="2dp"
           android:text="130,000"
-          android:textColor="@color/SandyTan"
+          android:textColor="@color/white"
           android:textSize="12sp"
           app:layout_constraintBaseline_toBaselineOf="@+id/tvMovieBudgetTitle"
           app:layout_constraintStart_toEndOf="@+id/tvMovieBudgetTitle" />
@@ -213,7 +213,7 @@
           android:layout_height="wrap_content"
           android:layout_marginBottom="2dp"
           android:text="130,000"
-          android:textColor="@color/SandyTan"
+          android:textColor="@color/white"
           android:textSize="12sp"
           app:layout_constraintBaseline_toBaselineOf="@+id/tvMovieRevenueTitle"
           app:layout_constraintStart_toEndOf="@+id/tvMovieRevenueTitle" />
@@ -236,7 +236,7 @@
           android:layout_height="wrap_content"
           android:layout_marginBottom="15dp"
           android:text="overview ........."
-          android:textColor="@color/SandyTan"
+          android:textColor="@color/white"
           android:textSize="12sp"
           app:layout_constraintStart_toStartOf="parent"
           app:layout_constraintTop_toBottomOf="@id/tvMovieOverviewTitle" />

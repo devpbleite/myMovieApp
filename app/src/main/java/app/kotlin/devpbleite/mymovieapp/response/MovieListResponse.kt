@@ -21,7 +21,5 @@ data class MovieListResponse(
         val video: Boolean,
         val vote_average: Double,
         val vote_count: Int
-    ) {
-        val posterPath: Any? = null
-    }
+    )
 }

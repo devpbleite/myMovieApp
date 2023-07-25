@@ -43,7 +43,7 @@ class MoviesAdapter: RecyclerView.Adapter<MoviesAdapter.ViewHolder>() {
       binding.apply {
         tvMovieTitle.text = item.title
         tvRate.text = item.vote_average.toString()
-        val moviePosterURL = POSTER_BASE_URL + item?.posterPath
+        val moviePosterURL = POSTER_BASE_URL + item?.poster_path
         imgMovie.load(moviePosterURL) {
           crossfade(true)
           placeholder(R.drawable.poster_placeholder)
